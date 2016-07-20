@@ -1,0 +1,50 @@
+"*":
+  "atom-beautify":
+    js:
+      indent_size: 2
+      space_after_anon_function: true
+    sass:
+      beautify_on_save: true
+      convert_quotes: "double"
+      indent_size: 2
+      preserve_newlines: true
+    scss:
+      configPath: ".csscomb.cson"
+      convert_quotes: "double"
+      default_beautifier: "CSScomb"
+      indent_size: 2
+    svg:
+      indent_size: 2
+  "atom-css-comb":
+    commonConfigs: "/Users/benhays/Code/.csscomb.json"
+  "autoclose-html": {}
+  core:
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.css.scss": [
+        "scss.liquid"
+      ]
+      "source.makefile": [
+        ".env"
+        ".gitignore"
+      ]
+      "text.html.basic": [
+        "mote"
+      ]
+      "text.html.liquid": [
+        "liquid"
+      ]
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontFamily: "SFMono-Regular"
+    fontSize: 20
+    invisibles: {}
+    preferredLineLength: 1000
+    showIndentGuide: true
+    softWrap: true
+  "file-icons":
+    coloured: false
+  "git-plus": {}
+".diff.source":
+  editor:
+    preferredLineLength: 1000
